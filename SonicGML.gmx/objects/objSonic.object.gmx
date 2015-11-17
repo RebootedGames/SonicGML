@@ -41,12 +41,14 @@
             <kind>1</kind>
             <string>/// Initialze Sprites
 
-spriteidle    = sprSonicIdle;
-spritewalk    = sprSonicWalk;
-spriterun     = sprSonicRun;
-spritebalance = sprSonicBalance;
-spritepush    = sprSonicPush;
-spritejump    = sprSonicBall;
+spriteidle     = sprSonicIdle;
+spritewalk     = sprSonicWalk;
+spriterun      = sprSonicRun;
+spritebalance  = sprSonicBalance;
+spritepush     = sprSonicPush;
+spritejump     = sprSonicBall;
+spriteduck     = sprSonicDuck;
+spritespindash = sprSonicSpinDash;
 
 framespeed    = 0;
 frameduration = 0;

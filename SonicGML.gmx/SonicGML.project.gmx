@@ -13,7 +13,9 @@
         <sprite>sprites\sprSonicRun</sprite>
         <sprite>sprites\sprSonicBall</sprite>
         <sprite>sprites\sprSonicPush</sprite>
+        <sprite>sprites\sprSonicDuck</sprite>
         <sprite>sprites\sprSonicBalance</sprite>
+        <sprite>sprites\sprSonicSpinDash</sprite>
       </sprites>
     </sprites>
     <sprites name="World">

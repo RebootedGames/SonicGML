@@ -26,22 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>/// WORK IN PROGRESS BRIDGE
-maxdepression[0]  = 2;
-maxdepression[1]  = 4;
-maxdepression[2]  = 6;
-maxdepression[3]  = 8;
-maxdepression[4]  = 10;
-maxdepression[5]  = 12;
-maxdepression[6]  = 12;
-maxdepression[7]  = 10;
-maxdepression[8]  = 8;
-maxdepression[9]  = 6;
-maxdepression[10] = 4;
-maxdepression[11] = 2;
 
 current = 0;
-divisionleft = 0;
-divisionright = 0;
 </string>
           </argument>
         </arguments>
@@ -65,12 +51,7 @@ divisionright = 0;
           <argument>
             <kind>1</kind>
             <string>/// WORK IN PROGRESS BRIDGE
-if (place_meeting(x, y-4, objPlayer) &amp;&amp; objPlayer.step &lt; objController.length / 2) {
-    divisionleft = objController.length-divisionright;
-    divisionright = objController.length-objPlayer.step;
-} else {
 
-}
 </string>
           </argument>
         </arguments>

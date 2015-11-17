@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>5</bbox_left>
-  <bbox_right>34</bbox_right>
-  <bbox_top>5</bbox_top>
-  <bbox_bottom>35</bbox_bottom>
+  <bbox_left>9</bbox_left>
+  <bbox_right>37</bbox_right>
+  <bbox_top>8</bbox_top>
+  <bbox_bottom>34</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -20,10 +20,10 @@
   <width>40</width>
   <height>40</height>
   <frames>
-    <frame index="0">images\sprSonicBall_0.png</frame>
-    <frame index="1">images\sprSonicBall_1.png</frame>
-    <frame index="2">images\sprSonicBall_2.png</frame>
-    <frame index="3">images\sprSonicBall_3.png</frame>
-    <frame index="4">images\sprSonicBall_4.png</frame>
+    <frame index="0">images\sprSonicSpinDash_0.png</frame>
+    <frame index="1">images\sprSonicSpinDash_1.png</frame>
+    <frame index="2">images\sprSonicSpinDash_2.png</frame>
+    <frame index="3">images\sprSonicSpinDash_3.png</frame>
+    <frame index="4">images\sprSonicSpinDash_4.png</frame>
   </frames>
 </sprite>

@@ -93,9 +93,9 @@ alarm[0] = animSpeed;
             <kind>1</kind>
             <string>/// WORK IN PROGRESS BRIDGE
 
-length   = 12;
+length   = 11;
 
-for (var i = 0; i &lt;= length-1; i++) {
+for (var i = 0; i &lt;= length; i++) {
     (instance_create(objBridge.x + 16 * i, objBridge.y, objBridge)).current = i;
 }
 </string>
@@ -175,13 +175,11 @@ background_x[1] = view_xview[0] / 1.15;
             <string>/// Draw Variables To Screen For Debugging
 
 draw_text (10, 10, string(fps) + "/" + string(room_speed));
-draw_text (10, 30, "Step: " + string(objSonic.step));
-draw_text (10, 90, "DivL: " + string(objBridge.divisionleft));
-draw_text (10, 110, "DivR: " + string(objBridge.divisionright));
-draw_text (10, 150, "A: " + string(objSonic.sensorA));
-draw_text (10, 170, "B: " + string(objSonic.sensorB));
-draw_text (10, 190, "C: " + string(objSonic.sensorC));
-draw_text (10, 210, "Center: " + string(objSonic.center));
+draw_text (10, 30, "Step: " + string(objPlayer.p));
+draw_text (10, 70, "A: " + string(objSonic.sensorA));
+draw_text (10, 90, "B: " + string(objSonic.sensorB));
+draw_text (10, 110, "C: " + string(objSonic.sensorC));
+draw_text (10, 130, "Center: " + string(objSonic.center));
 </string>
           </argument>
         </arguments>
